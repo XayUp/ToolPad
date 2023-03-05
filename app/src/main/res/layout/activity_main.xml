@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:id="@+id/main_background">
+
+    <LinearLayout
+         android:layout_height="40dp"
+         android:layout_width="match_parent"
+         android:layout_margin="6dp"
+         android:layout_toLeftOf="@id/pads"
+         android:id="@+id/top_tabs_background">
+
+        <Button
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:layout_weight="1"/>
+
+        <Button
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:layout_weight="1"/>
+
+        <Button
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+         android:layout_height="180dp"
+         android:layout_width="match_parent"
+         android:layout_below="@id/top_tabs_background"
+         android:background="#22FFFFFF"
+         android:layout_toLeftOf="@id/pads"
+         android:layout_marginLeft="6dp"
+         android:layout_marginRight="6dp"
+         android:id="@+id/led_frames_horizontal">
+
+        <RelativeLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:id="@+id/led_frames_background">
+
+            <View
+                 android:layout_height="match_parent"
+                 android:layout_width="2dp"
+                 android:layout_below="@id/led_frames_progress"
+                 android:background="#FFFFFFFF"
+                 android:id="@+id/led_frames_verticalbar"/>
+
+            <LinearLayout
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent"
+                 android:orientation="vertical"
+                 android:maxWidth="0dp"
+                 android:minWidth="0dp">
+
+                <SeekBar
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:thumb="@null"
+                     android:layout_margin="0dp"
+                     android:padding="0dp"
+                     android:splitTrack="true"
+                     android:id="@+id/led_frames_progress"/>
+
+                <ScrollView
+                     android:layout_height="match_parent"
+                     android:layout_width="match_parent"
+                     android:id="@+id/led_frames_vertical">
+
+                    <LinearLayout
+                         android:layout_height="match_parent"
+                         android:layout_width="match_parent"
+                         android:id="@+id/led_fram">
+
+                        <GridLayout
+                             android:layout_height="match_parent"
+                             android:layout_width="match_parent"
+                             android:id="@+id/led_frames">
+
+                        </GridLayout>
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+         android:layout_height="@dimen/h_led_frames_control"
+         android:layout_width="match_parent"
+         android:layout_below="@id/led_frames_horizontal"
+         android:background="#33FFFFFF"
+         android:layout_margin="6dp"
+         android:layout_toLeftOf="@id/pads"
+         android:orientation="horizontal"
+         android:layout_marginLeft="0dp"
+         android:id="@+id/led_frames_control">
+
+        <Button
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:layout_weight="1"
+             android:id="@+id/led_frames_prev"/>
+
+        <Button
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:layout_weight="1"
+             android:id="@+id/led_frames_pause_play"/>
+
+        <Button
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:layout_weight="1"
+             android:id="@+id/led_frames_next"/>
+
+        <TextView
+             android:layout_height="match_parent"
+             android:layout_width="wrap_content"
+             android:gravity="center"
+             android:padding="4dp"
+             android:layout_weight="0"
+             android:text="@string/bpm"/>
+
+        <EditText
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:digits="1234567890"
+             android:inputType="number"
+             android:layout_weight="1"
+             android:id="@+id/bpm_edit"
+             android:text="128"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="@dimen/h_led_frames_control"
+         android:layout_below="@id/led_frames_control"
+         android:background="#33FFFFFF"
+         android:layout_margin="6dp"
+         android:layout_toLeftOf="@id/pads"
+         android:orientation="vertical"
+         android:layout_marginLeft="0dp"
+         android:id="@+id/led_vieweditor_control">
+
+        <Button
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:layout_weight="1"/>
+
+        <Button
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:layout_weight="1"/>
+
+        <Button
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <GridLayout
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_centerVertical="true"
+         android:layout_alignParentRight="true"
+         android:id="@+id/pads">
+
+    </GridLayout>
+
+    <HorizontalScrollView
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:layout_below="@id/led_frames_control"
+         android:background="#22FFFFFF"
+         android:layout_toLeftOf="@id/led_vieweditor_control"
+         android:id="@+id/colors_list_background">
+
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="wrap_content">
+
+            <GridLayout
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent"
+                 android:id="@+id/colors_list">
+
+            </GridLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>

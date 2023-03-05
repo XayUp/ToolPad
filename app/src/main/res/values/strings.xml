@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ToolPad</string>
+    <string name="app_version">1.0</string>
+    
+    <!--Led editor-->
+    <string name="bpm">BPM:</string>
+    
+    <!--Crash-->
+    <string name="exitcrash"></string>
+    <string name="copy_log"></string>
+    <string name="restart_app"></string>
+    
+    <!--File Projects-->
+    <string name="without_info">The file "info" does not exist</string>
+    <string name="incomplet_project">Project incomplet!</string>
+    <string name="invalid_sound">Invalid sound:</string>
+    <string name="invalid_autoplay">Invalid Autoplay:</string>
+    <string name="invalid_keyled">Invalid KeyLed:</string>
+    <string name="invalid_led_file">Invalid KeyLed File: </string>
+    <string name="invalid_led_color">Color led invalid:</string>
+  
+    <!--Skin-->
+    <string name="default_skin">Default Skin</string>
+</resources>
