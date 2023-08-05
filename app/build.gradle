@@ -15,14 +15,6 @@ android {
     }
     
     signingConfigs {
-        release {
-            storeFile file(RELEASE_STORE_FILE)
-            storePassword(RELEASE_STORE_PASSWORD)
-            keyAlias(RELEASE_KEY_ALIAS)
-            keyPassword(RELEASE_KEY_PASSWORD)
-            v1SigningEnabled true
-            v2SigningEnabled true
-        }
         if(project.hasProperty('RELEASE_STORE_FILE')){
             debug {
                 storeFile file(RELEASE_STORE_FILE)
@@ -53,8 +45,11 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation 'com.google.android.material:material:1.6.1'
-    implementation 'com.google.android.exoplayer:exoplayer:2.18.2'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'com.google.android.exoplayer:exoplayer-core:2.19.0'
+
+    implementation project(':multipad')
+    implementation project(':ui')
 }

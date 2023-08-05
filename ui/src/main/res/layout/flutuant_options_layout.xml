@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/floating_options_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/background_material_dark">
+
+    <LinearLayout
+            android:id="@+id/floating_options_top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+        <Button
+                android:id="@+id/floating_options_top_bar_button_prev"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:background="@drawable/inter_prev" />
+
+        <TextView
+                android:id="@+id/floating_options_top_bar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/options_title_color"
+                android:textSize="@dimen/options_item_title_text_size"
+                android:textStyle="bold"/>
+    </LinearLayout>
+
+    <View
+            android:id="@+id/floating_options_above_divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/floating_options_top_bar"
+            android:color="@color/options_divider_color"
+            android:alpha="0.5"/>
+
+    <ViewFlipper
+            android:id="@+id/floating_options_flipper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/floating_options_bottom_divider"
+            android:layout_below="@id/floating_options_above_divider"
+            android:layout_marginTop="1dp"
+            android:orientation="vertical" >
+
+    </ViewFlipper>
+
+    <View
+            android:id="@+id/floating_options_bottom_divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_above="@+id/floating_options_bottom_bar"
+            android:color="@color/options_divider_color"/>
+
+    <LinearLayout
+            android:id="@+id/floating_options_bottom_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" >
+
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--From Unipad-->
+	<color name="background_floating_material_dark">#FF4DACFF</color>
+	<color name="background_material_dark">#ff424242</color>
+	<color name="background_material_dark_opaque">#A6424242</color>
+	<color name="primary_text_default_material_dark">@android:color/white</color>
+	<color name="secondary_text_material_dark">#b3ffffff</color>
+	<color name="button_material_dark">#ffc9c9c9</color>
+	<color name="material_green_100">#fff5f5f5</color>
+<!--MultiPad-->
+	<color name="default_app_color">#FF0C1721</color>
+	<color name="default_app_color_secondary">#FFFF00AE</color>
+	<color name="default_app_color_tertiary">#FF00FEFF</color>
+
+<!--Main Panel-->
+	<color name="main_pane_tab_text_background_color">#161E30</color>
+
+<!--Floating Window Size Grid-->
+	<color name="floating_window_resize_grid_header">#005B5C</color>
+	<color name="floating_window_resize_grid_background">#101A23</color>
+
+	<!--Project item-->
+	<color name="project_status_good">#35FF86</color>
+	<color name="project_status_bad">#ECFF3F</color>
+	<color name="project_status_useless">#FF3B3B</color>
+	<color name="project_item_text_title">#CCFFFFFF</color>
+	<color name="project_item_text_author">#80FFFFFF</color>
+	<color name="project_item_progress">#0E2721</color>
+
+	<color name="material_green_300">#ffe0e0e0</color>
+	<color name="background_floating_material_dark_pressed">#FF3C85C5</color>
+	<color name="accent_material_dark">#ffffffff</color>
+	<color name="background_item_clicked">#12FFFFFF</color>
+	<color name="view_divider_color">#20FFFFFF</color>
+	<!--Skin-->
+	<color name="btn__color">#FFEEEEEE</color>
+	<color name="autoplay_practical_1">#FF00FF00</color>
+	<color name="autoplay_practical_2">#FF00FFFF</color>
+
+
+</resources>

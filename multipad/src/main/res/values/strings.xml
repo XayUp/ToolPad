@@ -1,0 +1,206 @@
+<resources>
+    <!--App-->
+    <string name="app_version">3.0</string>
+    <string name="app_name">MultiPad Development</string>
+
+    <!--Theme info-->
+    <string name="theme_name">MultiPad Theme</string>
+    <string name="theme_author">XayUp</string>
+
+    <!--Main-->
+    <string name="splash_title">Powered by XayUp, inspired by Unipad by Kimjisub.</string>
+
+    <!--Main menu-->
+    <string name="main_panel_left_tab_projects">Projects</string>
+    <string name="main_panel_left_tab_skins">Skins</string>
+    <string name="main_panel_left_tab_grids">Grids</string>
+    <string name="main_panel_left_tab_settings">Settings</string>
+    <string name="main_panel_left_tab_about">About</string>
+    <string name="main_panel_left_tab_exit">Exit</string>
+
+    <!--Main Items-->
+    <string name="item_gen_log_file">Generate log file</string>
+    <string name="item_gen_log_file_subtitle">The generated file will be saved in /MultiPad.</string>
+    <string name="item_crash_app">Break the application</string>
+    <string name="item_crash_app_subtitle">for developer</string>
+    <string name="use_unipad_folder">Use Unipad folder</string>
+    <string name="use_unipad_folder_subtitle">Read unipack in Unipad folder</string>
+    <string name="use_soundpool_title">Samples without delay</string>
+    <string name="use_soundpool_subtitle">This limits the samples</string>
+    <string name="mychannel">My channel</string>
+    <string name="mychannel_subtitle">Know my channel!</string>
+    <string name="sourcecode">Source code</string>
+    <string name="sourcecode_subtitle">Source code and reporting bugs of MultiPad!</string>
+    <string name="manual">Manual</string>
+    <string name="manual_subtitle">Instructions application</string>
+    <string name="sound_spam">Spam sound</string>
+    <string name="sounds_spam_subtitle">Allows the samples are not stopped by pressing the same button</string>
+    <string name="sound_spam_dialog">This option allows the spam sound and may cause slow. Continue?</string>
+    <string name="led_spam">Spam leds</string>
+    <string name="led_spam_subtitle">Allows the leds are not stopped by pressing the same button</string>
+
+    <!--Project Item-->
+    <string name="project_item_text_status_project">Project</string>
+    <string name="project_item_text_status_led">Led</string>
+    <string name="project_item_text_status_sound">Sound</string>
+    <string name="project_item_text_status_autoplay">Autoplay</string>
+    <string name="project_status_good">Good</string>
+    <string name="project_status_bad">Bad</string>
+    <string name="project_status_useless">Useless</string>
+    <string name="project_item_text_description_date">Date</string>
+    <string name="project_item_text_description_size">Size</string>
+    <string name="project_item_text_description_difficult">Difficult</string>
+    <string name="project_item_text_description_project">Project:</string>
+    <string name="project_item_text_description_led">Led:</string>
+    <string name="project_item_text_description_sound">Sound:</string>
+    <string name="project_item_text_description_autoplay">Autoplay:</string>
+
+    <string name="main_bottom_bar_text_erro">Erro:</string>
+    <string name="main_bottom_bar_text_broken">Broken:</string>
+    <string name="main_bottom_bar_text_total">Total:</string>
+
+    <!--List Skin-->
+    <string name="list_skin_apply_title">Apply skin for:</string>
+    <string name="list_skin_apply_for_all">Apply for All</string>
+
+    <string name="cancel">@android:string/cancel</string>
+    <string name="ok">@android:string/ok</string>
+    <string name="retry">retry</string>
+
+    <!--Storage messages-->
+    <string name="storage_permission_title">Permission to storage needed!</string>
+    <string name="storage_permission_msg">
+        Allow MultiPad to access storage to read your unipack in /MultiPad or /Unipad folder
+    </string>
+    <string name="storage_permission_title_1">Trust in me!</string>
+    <string name="storage_permission_msg_1">
+        I only need storage access to access your Unipacks. See here https://github.com/XayUp/MultiPad
+    </string>
+    <string name="storage_permission_title_2">you do not trust me?</string>
+    <string name="storage_permission_msg_2">OK. Bye then :/</string>
+
+    <string name="permission_storage_necessary">Permission to storage needed!</string>
+    <string name="diag_invalidfiles_title">Invalid formats</string>
+
+    <!--Crash app-->
+    <string name="copy_log">Copy Log</string>
+    <string name="cop">Copied to the clipboard!</string>
+    <string name="exitcrash">Close app</string>
+    <string name="msg_after_crash">Open it again and copy the log. Please send it to @XayUp</string>
+
+    <!--Floating Window Resize Grid-->
+    <string name="floating_window_resize_grid_width">Width:</string>
+    <string name="floating_window_resize_grid_height">Height:</string>
+    <string name="floating_window_resize_grid_rotation">Rotation:</string>
+    <string name="floating_window_resize_grid_x_position">Position X:</string>
+    <string name="floating_window_resize_grid_y_position">Position Y:</string>
+    <string name="floating_window_resize_grid_padding">Padding:</string>
+    <string name="floating_window_resize_grid_part_grid">Grid</string>
+    <string name="floating_window_resize_grid_part_pads">Pads</string>
+    <string name="floating_window_resize_grid_get_data_copy">Copy data</string>
+    <string name="floating_window_resize_grid_get_data_paste">Paste data</string>
+    <string name="floating_window_resize_grid_get_data_save">Save data</string>
+    <string name="floating_window_resize_grid_get_data_past_error_message">No data has been copied yet</string>
+
+    <!--Pad Grid Menu-->
+    <string name="pad_grid_menu_choose_project_title">Choose project</string>
+    <string name="pad_grid_menu_choose_project_description">Choose the project this grid will interact with</string>
+    <string name="pad_grid_menu_choose_color_table_title">Choose color table</string>
+    <string name="pad_grid_menu_choose_color_table_description">Choose the color table this grid will use</string>
+    <string name="pad_grid_menu_change_the_id_title">Change the ID</string>
+    <string name="pad_grid_menu_change_the_id_description">Change ID to identify which "KeyLED" folder to use</string>
+    <string name="pad_grid_menu_project_settings_title">Project Setting</string>
+    <string name="pad_grid_menu_project_settings_description">Other project-related settings</string>
+    <string name="pad_grid_menu_project_settings_reverse_rows_title">Reverse rows</string>
+    <string name="pad_grid_menu_project_settings_reverse_rows_description">Flip the LEDs vertically</string>
+    <string name="pad_grid_menu_project_settings_reverse_columns_title">Reverse Columns</string>
+    <string name="pad_grid_menu_project_settings_reverse_columns_description">Flip the LEDs horizontally</string>
+
+    <string name="invalid_led_color">Color led invalid:</string>
+    <string name="warning">Warning!</string>
+    <string name="invalid_keyled">Invalid KeyLed:</string>
+    <string name="invalid_led_file">Invalid KeyLed File: </string>
+    <string name="alert_exit_title">Select skin</string>
+    <string name="alert_exit_options">Options</string>
+    <string name="skins">Skins</string>
+    <string name="skins_subtitle">Select your favorite skins</string>
+    <string name="default_skin">Default Skin</string>
+
+    <string name="main_floating_title">Settings</string>
+    <string name="restart_app">Restart App</string>
+    <string name="without_projects">There is no projects available!</string>
+    <string name="without_project_subtitle">Download some projects (Unipacks)</string>
+    <string name="get_storage">It is necessary to the permission to storage :(</string>
+    <string name="get_storage_subtitle">Let I read the unipacks present!</string>
+    <string name="without_info">The file "info" does not exist</string>
+    <string name="incomplet_project">Project incomplete!</string>
+    <string name="invalid_sound">Invalid sound:</string>
+    <string name="invalid_autoplay">Invalid Autoplay:</string>
+
+    <string name="led_spam_dialog">This option allows the spam led and may cause slow. Continue?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="layer_decoration"> Layer decoration </string>
+    <string name="layer_decoration_subtitle"> Allows you to add a layer of overlap, for example , a PNG a launchpad </string>
+    <string name="scale_layer_decoration">layer scale</string>
+    <string name="change">Change</string>
+    <string name="hide_buttoms">Hide Pad/Chains</string>
+    <string name="hide_buttoms_subtitle">Hide the overlay pad/chains</string>
+    <string name="invalid_float">This is not a number</string>
+    <string name="glow_title">Show glows</string>
+    <string name="glow_subtitle">Enable glow effect</string>
+    <string name="glow_cfg_radius">Glow radius</string>
+    <string name="glow_cfg_intensidade">Glow Intensity</string>
+    <string name="glow_cfg_title">Show glow settings</string>
+    <string name="glow_cfg_subtitle">Change glow radius/intensity</string>
+    <string name="invalid_radius"> The radius only supports integers (12, 168), floating (35.9, 27.2) and above 0. </string>
+    <string name="invalid_intensity"> The intensity supports only numbers floating. Maximum: 1.0, Minimum: 0.01 or 0.3, 0.04, 0.24, etc... </string>
+    <string name="phantom_select_title">Select Phatom</string>
+    <string name="phantom_select_subtitle">Selec your phatom.png</string>
+    <string name="phantomC_select_title">Select Phatom Central</string>
+    <string name="phantomC_select_subtitle">Select yor phatom_.png</string>
+    <string name="logo_select_title">Select Logo</string>
+    <string name="logo_select_subtitle">Select your logo.png</string>
+    <string name="logo_bg_select_title">Select Logo color</string>
+    <string name="logo_bg_select_subtitle">Select your Color png</string>
+    <string name="background_select_title">Select Background</string>
+    <string name="background_select_subtitle">Select your playbg.png</string>
+    <string name="chain_select_title">Select Chain</string>
+    <string name="chain_select_subtitle">Select your chainled.png</string>
+    <string name="btn_select_title">Select Button color</string>
+    <string name="btn_select_subtitle">Select your btn.png</string>
+    <string name="ui_img_select_title">Select Skin items</string>
+    <string name="ui_img_select_subtitle">Select phantom/chainled/logo/background/btn</string>
+    <string name="slide_mode">Mode Slide</string>
+    <string name="slide_mode_subtitle">a</string>
+    <string name="rec_ap_saving">Saving...</string>
+    <string name="rec_ap_recstarted">Record started</string>
+    <string name="done">Done</string>
+    <string name="recordAutoplay">Record to autoplay</string>
+    <string name="old_colors">Old Colors</string>
+    <string name="old_colors_subtitle">Use the colors of the Unipad instead of the Eyedrop</string>
+    <string name="layer_cfg">Set layer and size</string>
+    <string name="layer_cfg_subtitle">s</string>
+    <string name="change_value">Change value</string>
+    <string name="pads_cfg_size">Pads size</string>
+    <string name="layer_cfg_size">Layer width/height</string>
+    <string name="color_table_title">Color Table</string>
+    <string name="color_table_subtitle">Load a color table for this grid. Tables must be in /MultiPad/LCT</string>
+    <string name="default_color_table">Using the standard color table</string>
+  
+    <string name="usb_midi">USBs/MIDIs</string>
+	<string name="midi_already_connected">MIDI already connected!</string>
+    <string name="midi_lp_pro_live">Set your launchpad to "Live" mode manually, please.</string>
+    <string name="denied_midi_permission">Permission to access %m was denied</string>
+
+    <string name="progress_extract">Extracting:</string>
+    <string name="dialog_replace_title">Existing file</string>
+    <string name="dialog_replace_message">Do you want to replace?</string>
+    <string name="dialog_replace_check">Apply for next items</string>
+    <string name="replace">Replace</string>
+    <string name="reading">Reading</string>
+    <string name="grid_pads_title">Pads List</string>
+
+    <!--Texts-->
+    <string name="none">None</string>
+</resources>
